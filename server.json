@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/mixpanel",
   "title": "Mixpanel",
   "description": "Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/mixpanel",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-mixpanel",

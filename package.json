@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-mixpanel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)",
   "type": "module",
   "main": "src/index.ts",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "typescript": "^5.9.3",
     "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-ce913c3eaace63a1f4b2a22574e257ea32554fa84c96c8dcfb2f45d654fde247",
+    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
   }
 }
