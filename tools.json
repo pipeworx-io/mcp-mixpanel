@@ -1,0 +1,89 @@
+[
+  {
+    "name": "get_events",
+    "description": "Query event data from Mixpanel for a date range. Returns event counts and properties. Example: get_events({ from_date: \"2024-01-01\", to_date: \"2024-01-31\", event: \"Sign Up\", _apiKey: \"your_api_secret\" })",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "from_date": {
+          "type": "string",
+          "description": "Start date in YYYY-MM-DD format, e.g. \"2024-01-01\""
+        },
+        "to_date": {
+          "type": "string",
+          "description": "End date in YYYY-MM-DD format, e.g. \"2024-01-31\""
+        },
+        "event": {
+          "type": "string",
+          "description": "Optional specific event name to filter by, e.g. \"Sign Up\", \"Purchase\""
+        },
+        "_apiKey": {
+          "type": "string",
+          "description": "Mixpanel API secret (used for Basic auth)"
+        }
+      },
+      "required": [
+        "from_date",
+        "to_date",
+        "_apiKey"
+      ]
+    }
+  },
+  {
+    "name": "get_funnels",
+    "description": "Get funnel conversion data from Mixpanel. Shows step-by-step conversion rates. Example: get_funnels({ funnel_id: \"12345\", from_date: \"2024-01-01\", to_date: \"2024-01-31\", _apiKey: \"your_api_secret\" })",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "funnel_id": {
+          "type": "string",
+          "description": "Mixpanel funnel ID (numeric string)"
+        },
+        "from_date": {
+          "type": "string",
+          "description": "Start date in YYYY-MM-DD format"
+        },
+        "to_date": {
+          "type": "string",
+          "description": "End date in YYYY-MM-DD format"
+        },
+        "_apiKey": {
+          "type": "string",
+          "description": "Mixpanel API secret (used for Basic auth)"
+        }
+      },
+      "required": [
+        "funnel_id",
+        "from_date",
+        "to_date",
+        "_apiKey"
+      ]
+    }
+  },
+  {
+    "name": "get_retention",
+    "description": "Get user retention cohort data from Mixpanel. Shows how many users return over time. Example: get_retention({ from_date: \"2024-01-01\", to_date: \"2024-01-31\", _apiKey: \"your_api_secret\" })",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "from_date": {
+          "type": "string",
+          "description": "Start date in YYYY-MM-DD format"
+        },
+        "to_date": {
+          "type": "string",
+          "description": "End date in YYYY-MM-DD format"
+        },
+        "_apiKey": {
+          "type": "string",
+          "description": "Mixpanel API secret (used for Basic auth)"
+        }
+      },
+      "required": [
+        "from_date",
+        "to_date",
+        "_apiKey"
+      ]
+    }
+  }
+]
