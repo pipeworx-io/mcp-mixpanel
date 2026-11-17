@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-mixpanel",
-  "version": "0.2.2",
-  "description": "Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)",
+  "version": "0.2.3",
+  "description": "Unofficial Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "mixpanel",
     "gatewaySlug": "mixpanel",
-    "sourceHash": "v1-a9a5837280157cb4b099be0a06b47193fb0e3ad483c73d1ef6e1319fc48061e7",
-    "sourceCommit": "bed7faa04e7276899b5e3870ef11c98625371f2b"
+    "sourceHash": "v1-d8659bacdeaa37f4619fc601d337d213cd5dfe6211c73615990b4629c96ee2d1",
+    "sourceCommit": "6e7ae693219a515a7ee6dd88d02390ab290fbad3"
   }
 }

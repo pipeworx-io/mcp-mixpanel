@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/mixpanel",
-  "title": "Mixpanel",
-  "description": "Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)",
-  "version": "0.2.2",
+  "title": "Mixpanel (Unofficial)",
+  "description": "Unofficial Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)",
+  "version": "0.2.3",
   "websiteUrl": "https://pipeworx.io/packs/mixpanel",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-mixpanel",

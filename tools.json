@@ -1,6 +1,6 @@
 [
   {
-    "name": "get_events",
+    "name": "mixpanel_get_events",
     "description": "Query event data from Mixpanel for a date range. Returns event counts and properties. Example: get_events({ from_date: \"2024-01-01\", to_date: \"2024-01-31\", event: \"Sign Up\", _apiKey: \"your_api_secret\" })",
     "inputSchema": {
       "type": "object",

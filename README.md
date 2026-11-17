@@ -1,14 +1,14 @@
 # mcp-mixpanel
 
-Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)
+Unofficial Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1867+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 2007+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `get_events` | Query event data from Mixpanel for a date range. Returns event counts and properties. Example: get_events({ from_date: "2024-01-01", to_date: "2024-01-31", event: "Sign Up", _apiKey: "your_api_secret" }) |
+| `mixpanel_get_events` | Query event data from Mixpanel for a date range. Returns event counts and properties. Example: get_events({ from_date: "2024-01-01", to_date: "2024-01-31", event: "Sign Up", _apiKey: "your_api_secret" }) |
 | `get_funnels` | Get funnel conversion data from Mixpanel. Shows step-by-step conversion rates. Example: get_funnels({ funnel_id: "12345", from_date: "2024-01-01", to_date: "2024-01-31", _apiKey: "your_api_secret" }) |
 | `get_retention` | Get user retention cohort data from Mixpanel. Shows how many users return over time. Example: get_retention({ from_date: "2024-01-01", to_date: "2024-01-31", _apiKey: "your_api_secret" }) |
 
@@ -56,7 +56,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1867+ data sources. The
+Both URLs reach the same gateway and the same 2007+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
